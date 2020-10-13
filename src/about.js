@@ -3,8 +3,8 @@ import { Grid, Box, Text } from "@chakra-ui/core";
 
 const About = props => {
     return (
-        <Grid templateColumns="repeat(2,1fr)" gap={6}>
-            <Box p={5} boxShadow='md'  mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
+        <Grid templateColumns="repeat(2,1fr)" gap={6} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} mr={{ md: 6 }}>
+            <Box p={5} boxShadow='md' >
                 <Text as='h4' fontWeight='semibold'>
                     WHY APPS ON POINT?
                 </Text>

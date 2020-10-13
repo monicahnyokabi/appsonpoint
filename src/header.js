@@ -1,5 +1,5 @@
 import React from "react";
-import { ThemeProvider, Box, Flex, Link, Image, Text } from "@chakra-ui/core";
+import {  Box, Flex, Link, Image, Text } from "@chakra-ui/core";
 
 const NavLink = ({ children, ...props }) => (
     <Link px={2} color="white" {...props}>
@@ -8,11 +8,9 @@ const NavLink = ({ children, ...props }) => (
 );
 
 const Header = props => {
-
-
     return (
         <Flex
-            bg="blue.400"
+            bg="blue.500"
             w="100%"
             px={5}
             py={4}

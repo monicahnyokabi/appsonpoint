@@ -3,7 +3,7 @@ import { Grid, Box, Text, Image, Stack, SimpleGrid } from "@chakra-ui/core";
 
 const Services = props => {
     return (
-        <Grid templateRows="repeat(2, 1fr)" gap={6}>
+        <Grid templateRows="repeat(2, 1fr)" gap={6} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} mr={{ md: 6 }} >
             <div class="d-flex justify-content-center mt-5 mb-3">
                 <h3 class="rcorners3 text-white text-center">Services</h3>
             </div>
@@ -119,9 +119,7 @@ const Services = props => {
                     </Stack>
                 </Box>
             </Grid>
-
         </Grid>
-
     );
 };
 
