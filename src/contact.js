@@ -3,7 +3,7 @@ import { Grid, Box, Image, Text } from "@chakra-ui/core";
 
 const Contact = props => {
     return (
-        <Grid templateColumns="repeat(3,1fr)" color="gray.500" gap={6} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} mr={{ md: 6 }}>
+        <Grid templateColumns="repeat(3,1fr)" bg="gray.500" gap={6} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} mr={{ md: 6 }}>
             <Box>
                 <Text as='h1'>
                     Contact Info
@@ -34,7 +34,7 @@ const Contact = props => {
                 <Text as='h4'>Our Team</Text>
                 <Text as='h4'>Contact</Text>
             </Box>
-            <Box>
+            <Box mt={{ base: 4, md: 0 }}>
                 <Image src="/Annotation 2020-09-21 234646_1.png" />
             </Box>
 
