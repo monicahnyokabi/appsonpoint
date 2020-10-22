@@ -15,41 +15,7 @@ const Team = props => {
                     Joe Doe
                 </Text>
             </Box>
-            <Box>
-                <Image
-                    src="/avataaars.png"
-                    size={130} />
-                <Text as='h4'>
-                    CTO
-                </Text>
-                <Text as='h5'>
-                    John Walker
-                </Text>
-            </Box>
-            <Box>
-                <Image
-                    src="/avataaars.png"
-                    size={130} />
-                <Text as='h4'>
-                    COO
-                </Text>
-                <Text as='h5'>
-                    Mary Marks
-                </Text>
-            </Box>
-            <Box>
-                <Image
-                    src="/avataaars.png"
-                    size={130} />
-                <Text as='h4'>
-                    HIRING MANAGER
-                </Text>
-                <Text as='h5'>
-                    Pauline Kalxya
-                </Text>
-            </Box>
-        </Grid>
-
+            
     );
 }
 

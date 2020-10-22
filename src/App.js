@@ -6,6 +6,7 @@ import About from "./about";
 import Team from "./team";
 import Contact from "./contact";
 
+
 import { theme, ThemeProvider, CSSReset } from "@chakra-ui/core";
 
 const breakpoints = ["360px", "768px", "1024px", "1440px"];
